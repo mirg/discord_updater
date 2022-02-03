@@ -1,15 +1,18 @@
 # discord_updater
-Updating of Discord channel's messages from the given URLs based on schedule.
+Updating of Discord channel's messages from the given URLs based on the simple schedule.
 
-dependencies:
+## dependencies
  pip3 install discord
 
-usage:
+## usage
  python3 message_updater.py config.json
  
-config file description
- "tokenID": "TOKEN_ID",
- "channelID": CHANNEL_ID,
- "URL_1" : "URL_FOR MESSAGE_1",
- "URL_2":"URL_FOR_MESSAGE_2" - this value is optional
- "refresh": seconds between publishing
+## config file description
+
+{ <br />
+ "tokenID": "TOKEN_ID", <br />
+ "channelID": CHANNEL_ID, <br />
+ "URL_1" : "URL_FOR MESSAGE_1", <br />
+ "URL_2":"URL_FOR_MESSAGE_2" - this value is optional <br />
+ "refresh": seconds between publishing <br />
+} <br /> 
