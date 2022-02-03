@@ -1,0 +1,7 @@
+{
+ "tokenID": "<TOKEN>",
+ "channelID": <CHANNEL_ID>,
+ "URL_1" : "<url1>",
+ "URL_2":"<URL2>",
+ "refresh": 3600
+}
