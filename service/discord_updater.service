@@ -1,0 +1,10 @@
+[Unit]
+Description=Discord Updater Service
+
+[Service]
+Restart=on-failure
+RestartSec=30s
+ExecStart=/bin/bash /home/opc/discord_updater/service.sh
+
+[Install]
+WantedBy=multi-user.target
